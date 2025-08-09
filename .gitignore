@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+.venv/        # Your Python virtual environment folder
+env/          # Alternative common name for virtual environment
+.env          # For environment variables if you used a .env file for credentials
+
+# Streamlit
+.streamlit/   # Streamlit's local cache/config folder
+
+# Database sensitive info (if you ever put it in a file, which is discouraged)
+# db_credentials.py
